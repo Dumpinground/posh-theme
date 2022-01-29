@@ -1,0 +1,186 @@
+{
+  "$schema": "https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/schema.json",
+  "blocks": [
+    {
+      "type": "prompt",
+      "alignment": "left",
+      "segments": [
+        {
+          "type": "python",
+          "style": "plain",
+          "foreground": "white",
+          "properties": {
+            "prefix": "(",
+            "postfix": ")",
+            "display_version": false
+          }
+        }
+      ]
+    },
+    {
+      "type": "prompt",
+      "alignment": "left",
+      "newline": true,
+      "segments": [
+        {
+          "type": "text",
+          "style": "plain",
+          "foreground": "lightBlue",
+          "properties": {
+            "prefix": "",
+            "text": "#"
+          }
+        },
+        {
+          "type": "root",
+          "style": "plain",
+          "foreground": "red",
+          "properties": {
+            "root_icon": "\b\b\b%"
+          }
+        },
+        {
+          "type": "session",
+          "style": "plain",
+          "properties": {
+            "user_info_separator": " <darkGray>@</> ",
+            "prefix": "",
+            "user_color": "cyan",
+            "host_color": "green"
+          }
+        },
+        {
+          "type": "path",
+          "style": "plain",
+          "foreground": "lightYellow",
+          "properties": {
+            "prefix": "<darkGray>in </>",
+            "style": "full"
+          }
+        },
+        {
+          "type": "git",
+          "style": "plain",
+          "properties": {
+            "prefix": "<darkGray>on</> <white>git:</>"
+          }
+        },
+        {
+          "type": "time",
+          "style": "plain",
+          "foreground": "darkGray",
+          "properties": {
+            "prefix": "[",
+            "postfix": "]"
+          }
+        },
+        {
+          "type": "exit",
+          "style": "plain",
+          "foreground": "red",
+          "properties": {
+            "prefix": " C:",
+            "always_numeric": true
+          }
+        }
+      ]
+    },
+    {
+      "type": "prompt",
+      "alignment": "left",
+      "newline": true,
+      "segments": [
+        {
+          "type": "text",
+          "style": "plain",
+          "foreground": "lightRed",
+          "properties": {
+            "prefix": "",
+            "text": "$",
+            "postfix": ""
+          }
+        }
+      ]
+    }
+  ],
+  "tooltips": [
+    {
+      "tips": ["scoop"],
+      "type": "text",
+      "style": "plain",
+      "foreground": "#E06C75",
+      "properties": {
+        "prefix": "",
+        "template": "scoop",
+        "postfix": " \u276F"
+      }
+    },
+    {
+      "tips": ["scoop uninstall"],
+      "type": "text",
+      "style": "plain",
+      "foreground": "#e0aa6c",
+      "properties": {
+        "prefix": "",
+        "template": "scoop",
+        "postfix": " \u2BBD"
+      }
+    },
+    {
+      "tips": ["scoop help"],
+      "type": "text",
+      "style": "plain",
+      "foreground": "#ace4c8",
+      "properties": {
+        "prefix": "",
+        "template": "scoop",
+        "postfix": " \u003F"
+      }
+    },
+    {
+      "tips": ["scoop install"],
+      "type": "text",
+      "style": "plain",
+      "foreground": "#66ee8e",
+      "properties": {
+        "prefix": "",
+        "template": "scoop",
+        "postfix": " \u2B73"
+      }
+    },
+    {
+      "tips": ["scoop cache"],
+      "type": "text",
+      "style": "plain",
+      "foreground": "#dfb737",
+      "properties": {
+        "prefix": "",
+        "template": "scoop",
+        "postfix": " \u2BC0"
+      }
+    },
+    {        
+      "tips": ["scoop update"],
+      "type": "text",
+      "style": "plain",
+      "foreground": "#4de7df",
+      "properties": {
+        "prefix": "",
+        "template": "scoop",
+        "postfix": " \u2B6F"
+      }
+    },
+    {        
+      "tips": ["scoop search"],
+      "type": "text",
+      "style": "plain",
+      "foreground": "#6ce0c3",
+      "properties": {
+        "prefix": "",
+        "template": "scoop",
+        "postfix": " \u2315"
+      }
+    }
+  ],
+  "final_space": true
+}
