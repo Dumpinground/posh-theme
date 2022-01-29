@@ -1,2 +1,2 @@
 # posh-theme
-my modified theme for ohmyposh
+a set of modified themes for ohmyposh
