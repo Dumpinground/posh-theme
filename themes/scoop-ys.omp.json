@@ -112,7 +112,18 @@
       "properties": {
         "prefix": "",
         "template": "scoop",
-        "postfix": " \u276F"
+        "postfix": " ❯"
+      }
+    },
+    {
+      "tips": ["scoop bucket"],
+      "type": "text",
+      "style": "plain",
+      "foreground": "#e0a46c",
+      "properties": {
+        "prefix": "",
+        "template": "scoop",
+        "postfix": " ❚"
       }
     },
     {
@@ -156,7 +167,7 @@
       "properties": {
         "prefix": "",
         "template": "scoop",
-        "postfix": " ▤"
+        "postfix": " 🈪"
       }
     },
     {
