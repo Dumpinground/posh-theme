@@ -108,7 +108,7 @@
       "tips": ["scoop"],
       "type": "text",
       "style": "plain",
-      "foreground": "#E06C75",
+      "foreground": "#e0aa6c",
       "properties": {
         "prefix": "",
         "template": "scoop",
@@ -119,11 +119,11 @@
       "tips": ["scoop uninstall"],
       "type": "text",
       "style": "plain",
-      "foreground": "#e0aa6c",
+      "foreground": "#E06C75",
       "properties": {
         "prefix": "",
         "template": "scoop",
-        "postfix": " \u2BBD"
+        "postfix": " ⮽"
       }
     },
     {
@@ -134,7 +134,7 @@
       "properties": {
         "prefix": "",
         "template": "scoop",
-        "postfix": " \u003F"
+        "postfix": " ?"
       }
     },
     {
@@ -145,18 +145,40 @@
       "properties": {
         "prefix": "",
         "template": "scoop",
-        "postfix": " \u2B73"
+        "postfix": " ⭳"
       }
     },
     {
-      "tips": ["scoop cache"],
+      "tips": ["scoop list"],
+      "type": "text",
+      "style": "plain",
+      "foreground": "#76e076",
+      "properties": {
+        "prefix": "",
+        "template": "scoop",
+        "postfix": " ▤"
+      }
+    },
+    {
+      "tips": ["scoop cache", "scoop cache show"],
       "type": "text",
       "style": "plain",
       "foreground": "#dfb737",
       "properties": {
         "prefix": "",
         "template": "scoop",
-        "postfix": " \u2BC0"
+        "postfix": " ◼"
+      }
+    },
+    {
+      "tips": ["scoop cache rm"],
+      "type": "text",
+      "style": "plain",
+      "foreground": "#df8337",
+      "properties": {
+        "prefix": "",
+        "template": "scoop",
+        "postfix": " ◻"
       }
     },
     {        
@@ -167,7 +189,7 @@
       "properties": {
         "prefix": "",
         "template": "scoop",
-        "postfix": " \u2B6F"
+        "postfix": " ⭯"
       }
     },
     {        
