@@ -149,6 +149,17 @@
       }
     },
     {
+      "tips": ["scoop cleanup"],
+      "type": "text",
+      "style": "plain",
+      "foreground": "#d9f39d",
+      "properties": {
+        "prefix": "",
+        "template": "scoop",
+        "postfix": " ◫"
+      }
+    },
+    {
       "tips": ["scoop install"],
       "type": "text",
       "style": "plain",
@@ -163,7 +174,7 @@
       "tips": ["scoop list"],
       "type": "text",
       "style": "plain",
-      "foreground": "#76e076",
+      "foreground": "#4de7df",
       "properties": {
         "prefix": "",
         "template": "scoop",
@@ -185,7 +196,7 @@
       "tips": ["scoop cache rm"],
       "type": "text",
       "style": "plain",
-      "foreground": "#df8337",
+      "foreground": "#f07c59",
       "properties": {
         "prefix": "",
         "template": "scoop",
@@ -196,7 +207,7 @@
       "tips": ["scoop update"],
       "type": "text",
       "style": "plain",
-      "foreground": "#4de7df",
+      "foreground": "#76e076",
       "properties": {
         "prefix": "",
         "template": "scoop",
